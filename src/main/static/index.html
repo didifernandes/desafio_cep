@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consulta CEP e Listagem de Endereços</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Consultar CEP</h1>
+    <input type="text" id="cep" placeholder="Digite o CEP">
+    <button onclick="consultarCep()">Buscar</button>
+
+    <div id="resultado"></div>
+
+    <hr>
+
+    <h2>Listar Endereços</h2>
+    <label for="campoOrdenacao">Ordenar por:</label>
+    <select id="campoOrdenacao">
+        <option value="cep">CEP</option>
+        <option value="logradouro">Rua</option>
+        <option value="bairro">Bairro</option>
+        <option value="localidade">Cidade</option>
+        <option value="uf">Estado</option>
+    </select>
+
+    <label for="ordemCrescente">Ordem Crescente:</label>
+    <input type="checkbox" id="ordemCrescente" checked>
+
+    <button onclick="listarEnderecos()">Listar Endereços</button>
+
+    <div id="listaEnderecos"></div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
