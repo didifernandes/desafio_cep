@@ -8,6 +8,7 @@ Esse sistema faz a consulta de CEPs, ordena e faz a listagem utilizando a API Vi
 - MySQL
 - Spring Boot 
 - API ViaCEP
+- - HTML, CSS, JS
 
 Obs (feedback):Esse desafio foi mais complicado que as questões de lógica. Tentei inicialmente utilizar apenas Java puro, mas não consegui avançar como queria. Então, resolvi aplicar meus conhecimentos básicos em Spring, e foi uma ótima oportunidade para praticar e aprender mais sobre o framework.
 
